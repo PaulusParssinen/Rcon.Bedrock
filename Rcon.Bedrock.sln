@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34511.98
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rcon.Bedrock", "src\Rcon.Bedrock\Rcon.Bedrock.csproj", "{477031D8-FBF9-41F0-BEC0-53558E16D051}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D86FC3A-118F-4151-B1B2-471475D91922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rcon.Bedrock.Tests", "src\RconBedrock.Tests\Rcon.Bedrock.Tests.csproj", "{D1F00156-3128-4D3A-8F92-2457CDF2AC81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477031D8-FBF9-41F0-BEC0-53558E16D051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477031D8-FBF9-41F0-BEC0-53558E16D051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477031D8-FBF9-41F0-BEC0-53558E16D051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477031D8-FBF9-41F0-BEC0-53558E16D051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F00156-3128-4D3A-8F92-2457CDF2AC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F00156-3128-4D3A-8F92-2457CDF2AC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F00156-3128-4D3A-8F92-2457CDF2AC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F00156-3128-4D3A-8F92-2457CDF2AC81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{477031D8-FBF9-41F0-BEC0-53558E16D051} = {4D86FC3A-118F-4151-B1B2-471475D91922}
+		{D1F00156-3128-4D3A-8F92-2457CDF2AC81} = {4D86FC3A-118F-4151-B1B2-471475D91922}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F191184-5CA0-47F0-9726-7EC109BB4EB1}
+	EndGlobalSection
+EndGlobal
